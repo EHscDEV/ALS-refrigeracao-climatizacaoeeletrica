@@ -1,0 +1,423 @@
+/* Responcivo da imagem inicial*/
+/* Responsivo da imagem inicial */
+@media (max-width: 768px) {
+  section.hero-site {
+    background-image: url(../images/Design\ sem\ nome\ \(45\).png); /* Altere para a imagem que você quer no celular */
+    background-size: cover; /* opcional: cobre toda a tela */
+    background-position: center center; /* centraliza melhor em telas pequenas */
+  }
+
+  .hero-site .interface {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-site .txt-hero h1 {
+    font-size: 2em;
+  }
+
+  .hero-site .txt-hero p {
+    font-size: 16px;
+  }
+}
+
+
+
+/* Responcivo d imagem com texto inicial*/
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about-image,
+  .about-text {
+    width: 100%;
+  }
+
+  .about-text {
+    margin-bottom: 20px;
+  }
+}
+
+/* estilo card */
+@media (max-width: 600px) {
+  .cards {
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Estilo dos botoes de contato */
+@media (max-width: 768px) {
+  .txt-contato,
+  .icons-contato {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .contato .icons-contato button {
+    width: 80%;
+    padding: 0 30px;
+  }
+
+  .contato .txt-contato h3 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contato .icons-contato button {
+    width: 100%;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .contato .txt-contato h3 {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+}
+
+/* Estilo da pag para solicitar orçamento */
+@media (max-width: 768px) {
+  section.hoteis {
+    height: auto;
+    padding: 80px 20px;
+  }
+
+  .hoteis > .interface {
+    padding: 0 10px;
+  }
+
+  .hoteis h3 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .hoteis p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .hoteis button {
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hoteis h3 {
+    font-size: 1.6rem;
+    line-height: 30px;
+  }
+
+  .hoteis p {
+    font-size: 14px;
+  }
+
+  .hoteis button {
+    width: 160px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
+
+/* Estilo da part nosso serviço */
+@media (max-width: 768px) {
+  .txt-funciona,
+  .instrucoes {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .como-funciona .txt-funciona {
+    position: static;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .como-funciona .txt-funciona h3 {
+    font-size: 2.2rem;
+    line-height: 40px;
+  }
+
+  .instrucoes .instru-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .instrucoes .instru-box img {
+    max-width: 100px;
+  }
+
+  .instrucoes .instru-box h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .como-funciona .txt-funciona h3 {
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+
+  .instrucoes .instru-box {
+    padding: 15px;
+  }
+
+  .instrucoes .instru-box img {
+    max-width: 80px;
+  }
+}
+
+/* Foto com img parte final */
+@media (max-width: 768px) {
+  .disteiner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .txt-img h1 {
+    font-size: 24px;
+  }
+
+  .txt-img p {
+    font-size: 16px;
+  }
+
+  .image-section {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .txt-img h1 {
+    font-size: 20px;
+  }
+
+  .txt-img p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .image-section img {
+    max-width: 90%;
+  }
+}
+
+/* Rodapé */
+@media (max-width: 768px) {
+  footer .middle-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+
+  footer .middle-footer a {
+    margin: 0 10px;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  footer .top-footer button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  footer .bottom-footer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 20px 0;
+  }
+
+  footer .middle-footer {
+    gap: 8px;
+  }
+
+  footer .middle-footer a {
+    font-size: 14px;
+  }
+
+  footer .top-footer button {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+
+  footer .bottom-footer p {
+    font-size: 12px;
+  }
+}
+
+
+/* Oculta menu desktop e botão de contato em telas menores */
+@media (max-width: 991px) {
+  .menu-desktop,
+  .btn-contato {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Animação para X */
+  .menu-open .menu-toggle span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .menu-open .menu-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-open .menu-toggle span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Esconde o menu mobile em telas maiores que 768px */
+@media (min-width: 769px) {
+  .btn-abrir-menu,
+  .menu-mobile,
+  .overlay-menu {
+    display: none !important;
+  }
+}
+
+/* Responsivo para telas menores  botão do zap */
+@media (max-width: 600px) {
+  .whatsapp-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    gap: 6px;
+  }
+}
+
+
+/* ===== RESPONSIVO  avaliação ===== */
+@media (max-width: 768px) {
+  #avaliacoes-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+  }
+
+  .formulario-avaliacao,
+  .lista-avaliacoes {
+    max-width: 100%;
+  }
+}
+
+/* Mostrar pedacinho da próxima imagem no celular ===carrossel== */
+@media (max-width: 600px) {
+  .carrossel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+    justify-content: start; /* deixa o scroll rolar */
+    padding-left: 5%; /* cria espaço à esquerda */
+  }
+
+  .carrossel img {
+    flex: 0 0 auto;
+    width: 80%; /* menor que 100% pra mostrar a próxima */
+    margin-right: 5px;
+    scroll-snap-align: center;
+  }
+}
+
+/* responcivo galeria video */
+@media (max-width: 768px) {
+  .video-carousel iframe {
+    max-width: 300px;
+    height: 170px;
+  }
+
+  .video-nav {
+    font-size: 1.5rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-carousel iframe {
+    max-width: 250px;
+    height: 140px;
+  }
+}
+
+/* Responsivo galeria de imagem */
+@media (max-width: 768px) {
+  .image-wrapper {
+    width: 180px;
+    height: 180px;
+  }
+
+  .image-nav {
+    font-size: 1.5rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-wrapper {
+    width: 140px;
+    height: 140px;
+  }
+
+}
+  @media (max-width: 480px) {
+    .mobile-viewer {
+      display: flex; /* <-- ISSO faz abrir sozinho */
+    }
+  }
+
+
+
+
+
+
+
+
+
+/* texto em cima das galerias */
+  @media (max-width: 480px) {
+    .gallery-title {
+      font-size: 1.5rem;
+      padding: 0 15px;
+    }
+  }
